@@ -15,8 +15,10 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
+    /* მიუთითეთ სასურველი ქალაქი */
     val CITY: String = "tbilisi,ge"
-    val API: String = "58eeb88481c025f5162b9973f6709edd"
+    /* შეჩვალეთ გასაღები */
+    val API: String = "ad0c0aa59b98c705382f0eaaf4ac91c6"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
